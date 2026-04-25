@@ -1,31 +1,29 @@
 # UTS STRUKTUR DATA PART 2
 
-## Base Case (Kondisi Berhenti)
+## Nama = AHMAD FIKRI FAIS WILDAN | NPM = 25161562038
+<img src="IMG_20260425_125947.jpg.jpeg" width="400"/>
+
+### Kondisi dasar (base case)
+```java
+if (n == 0) {
+    return 0;
+} else if (n == 1) {
+    return 1;
+}
+```
+Digunakan untuk menghentikan proses rekursif agar tidak berjalan tanpa batas.
+
+### Proses rekursif
 
 ```java
-if (n == 0) return 0;
-else if (n == 1) return 1;
+else {
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
 ```
-
-Digunakan untuk menghentikan proses rekursi agar tidak berjalan tanpa batas.
-
-### Recursive Case (Pemanggilan Ulang)
-
-```java
-return fibo(n - 1) + fibo(n - 2);
-```
-
-Untuk menghitung nilai Fibonacci ke-n, fungsi akan memanggil:
-
-* `fibo(n-1)`
-* `fibo(n-2)`
-
 Sesuai dengan rumus:
-
 ```
 F(n) = F(n-1) + F(n-2)
 ```
 
-## Kesimpulan
-
-Fungsi ini bekerja dengan memecah masalah menjadi bagian yang lebih kecil hingga mencapai kondisi dasar, kemudian hasilnya digabungkan kembali untuk mendapatkan nilai akhir.
+### Hasil
+<img src="Hasil%20.png" width="400"/>
