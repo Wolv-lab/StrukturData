@@ -1,19 +1,7 @@
 # Deskripsi Fungsi Rekursif Fibonacci
 
-Program ini menggunakan fungsi rekursif untuk menghitung nilai deret Fibonacci.
-
-## Fungsi
-
-```java
-public static int fibo(int n)
-```
-
-Fungsi `fibo` menerima parameter `n` (bilangan ke-n) dan mengembalikan nilai Fibonacci pada posisi tersebut.
-
-* `public` → dapat diakses dari luar class
-* `static` → dapat dipanggil tanpa membuat objek
-* `int` → tipe data hasil (bilangan bulat)
-
+#Hasil
+![Hasil Run](Hasil.png)
 ## Konsep Rekursif
 
 Fungsi ini menggunakan metode **rekursif**, yaitu fungsi yang memanggil dirinya sendiri.
