@@ -1,12 +1,6 @@
-# Deskripsi Fungsi Rekursif Fibonacci
+# UTS STRUKTUR DATA PART 2
 
-# Hasil
-![Hasil Run]([Hasil.png](https://github.com/Wolv-lab/StrukturData/blob/8a5e12b46a661876ff4009481f66698969d7106c/UTS_Struktur_data_part2/Hasil%20.png))
-## Konsep Rekursif
-
-Fungsi ini menggunakan metode **rekursif**, yaitu fungsi yang memanggil dirinya sendiri.
-
-### Base Case (Kondisi Berhenti)
+## Base Case (Kondisi Berhenti)
 
 ```java
 if (n == 0) return 0;
