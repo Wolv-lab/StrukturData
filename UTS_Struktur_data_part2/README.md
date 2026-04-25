@@ -1,7 +1,7 @@
 # Deskripsi Fungsi Rekursif Fibonacci
 
-#Hasil
-![Hasil Run](Hasil.png)
+# Hasil
+![Hasil Run]([Hasil.png](https://github.com/Wolv-lab/StrukturData/blob/8a5e12b46a661876ff4009481f66698969d7106c/UTS_Struktur_data_part2/Hasil%20.png))
 ## Konsep Rekursif
 
 Fungsi ini menggunakan metode **rekursif**, yaitu fungsi yang memanggil dirinya sendiri.
