@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class fibonacci {
-    // Fungsi rekursif Fibonacci
     public static int fibo(int n) {
         if (n == 0) {
             return 0;
