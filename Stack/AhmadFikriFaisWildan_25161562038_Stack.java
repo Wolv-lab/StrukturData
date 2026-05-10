@@ -1,4 +1,3 @@
-package Stack;
 public class AhmadFikriFaisWildan_25161562038_Stack {
      // === BAGIAN 1: Deklarasi Stack ===
     static String[] stack = new String[10];
